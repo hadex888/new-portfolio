@@ -1,0 +1,127 @@
+.img1{
+    width: 40%;
+    border-radius: 30px;
+}
+
+#h11{
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+#p1{
+    font-size: 20px;
+    color: black;
+}
+.btn1{
+    width: 20%;
+    height: 55px;
+    border-radius: 10px;
+    color: white;
+    background-color: #f700ea8f;
+}
+.btn2{
+    width: 20%;
+    height: 60px;
+    border: 5px solid pink;
+    border-radius: 10px;
+    color: black;
+    background-color: transparent;
+}
+.btn1:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+.btn1 a{
+    color: white;
+}
+.btn2:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+.btn2 a{
+    color: black;
+}
+
+
+.contentC{
+    padding-top: 30%;
+    margin-left: 15%;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: #c700fd76;
+    animation-name: moveinleft;
+    animation-duration:5s ;
+    animation-timing-function: ease-out;
+}
+
+#fontman{
+    font-weight: 900;
+    animation-name: moveinleft;
+    animation-duration:10s ;
+    animation-timing-function: ease-out;
+}
+@keyframes moveinleft {
+    0%{
+        opacity: 0;
+        transform: translateX(-1rem) ;
+    }
+
+    60%{
+         transform: rotate(180deg);
+    }
+
+    80%{
+        transform: translateX(1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0) ;
+
+    }
+} 
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#card1:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+.homem{
+    background-image: linear-gradient(
+        to right bottom,
+         #f0faeed0,
+         #79baa48b) ,
+         url(./img/businessmen-working-strategic-planning.jpg);
+    background-size: cover;
+    background-position: top;
+
+    /* clip-path: polygon(0 0,100% 0,100% 85%,0 100%); */
+    position: relative;
+}
+.home15{
+    padding: 0.5rem;
+    box-sizing: border-box;
+    
+}
+
+.home{
+    background-image: linear-gradient(
+        to right bottom,
+         #f0faeed0,
+         #79baa48b) ,
+         url(./img/businessman-handshaking-businesswoman-showing-respect-closeup-view-hands-shaking.jpg);
+    background-size: cover;
+    background-position: top;
+
+    /* clip-path: polygon(0 0,100% 0,100% 85%,0 100%); */
+    position: relative;
+}
+

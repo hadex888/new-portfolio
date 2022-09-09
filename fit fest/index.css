@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color:rgb(250, 244, 244) ;
+    padding: 20px 400px 30px 50px;
+    display: flex;
+    gap: 15%;
+
+}
+li{
+    display: inline;
+    margin-top: 80px;
+    font-size: 20px;
+    
+}
+li+li{
+    margin-left: 40px;
+}
+.main{
+    display: flex;
+    position: relative;
+}
+.content
+{
+    padding: 60px 0 0 50px;
+}
+.hi1{
+    margin-bottom: 30px;
+}
+.hi2{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.pi1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.btn{
+    width: 25%;
+    height: 6vh;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 80px;
+
+}
+
+.hi11{
+    font-size: 162px;
+    opacity: 0.1;
+    color: red;
+    margin-left: 45px;
+}
+.img1{
+    width:40px;
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    
+}
+section{
+    background-color: rgb(250, 244, 244);
+}
+
+.section2{
+    text-align: center;
+    font-size: 25px;
+}
+.int{
+   text-align: center;
+    margin-top: 30px;
+}
+input{
+    margin-left: 21%; 
+    width: 35%;
+    height: 6vh;
+    font-size: 20px;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+
+#btn22{
+    margin-right: 30%;
+    height: 7vh;
+    width: 13%;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* overflow: hidden;
+    overflow: scroll; */
+    /* overflow-x: hidden;
+    overflow-x: scroll; */
+    overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.card {
+    border-bottom-left-radius: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    overflow: auto;
+}
+
+.card{
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 50px;
+} 
+
+
+.card1,.card2,.card3{
+    display: flex;
+    gap: 40px;
+    padding-left: 10%;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+.card1{
+}
+.card-one, .card-two, .card-three{
+    border-top: 3px solid red;
+    background-color: white;
+
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+button{
+    width: 25%;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.bn1{
+    background-color: pink;
+}
+.bn2{
+    background-color: rgba(255, 166, 0, 0.982)
+}
+
+.img-footer{
+    text-align: center;
+    padding-top: 40px;
+    display: flex;
+    padding-left: 30%;
+    
+}
+footer{
+    background-color:rgb(247, 222, 222) ;
+}
+.pfooter{
+    padding-top: 20px;
+}
